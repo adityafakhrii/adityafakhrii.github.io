@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tutorial | TitiKoma</title>
+
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+	<!-- css -->
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+	<header>
+		<div class="vertical-line"></div>
+		<a href="index.html" class="logo"><span>Titi</span>Koma;</a>
+
+		<input type="checkbox" id="menu-bar">
+		<label for="menu-bar" class="fas fa-bars"></label>
+
+		<nav class="navbar">
+			<a href="index.html">Home</a>
+			<a href="tentang.html">Tentang</a>
+			<a class="blue" href="tutorial.html">Tutorial</a>
+			<a href="#" onclick="myFunction()" class="dropbtn">Kategori <i class="fas fa-chevron-down"></i></a>
+			<div id="myDropdown" class="dropdown-content">
+			    <a href="kategori.html">HTML</a>
+			    <a href="kategori.html">CSS</a>
+			    <a href="kategori.html">Javascript</a>
+			</div>
+			<a href="berita.html">Berita</a>
+			<input type="text" name="cari" placeholder="Cari ...">
+			<a href="login.html" class="btn">Masuk</a>
+		</nav>
+
+	</header>
+
+	<!-- Tutorial Terbaru -->
+	<section class="tutorial page" id="tutorial">
+
+		<h1 class="heading">Tutorial</h1>
+		
+		<p class="tagline">Mau belajar apa hari ini?</p>
+		<div class="box-container">
+			<div class="box">
+				<img width="100%" src="assets/html.jpg" alt="">
+				<p>Tue, 19 Oct 2021 15:30</p>
+				<a href="#">
+					<h3>Tutorial HTML #1 : Pengertian dan Sejarah HTML</h3>
+				</a>
+				<p>Baru terjun ke dunia pemrograman web? HTML wajib banget kamu kuasai!. HTML merupakan ...</p>
+			</div>
+			<div class="box">
+				<img width="100%" src="assets/css.jpg" alt="">
+				<p>Tue, 19 Oct 2021 16:30</p>
+				<a href="#">
+					<h3>Tutorial CSS #1 : Mari Kita Percantik Website Kita !</h3>
+				</a>
+				<p>Sudah paham mengenai HTML? oke kali ini kita akan coba untuk mempercantik tampilan yag telah ...</p>
+			</div>	
+			<div class="box">
+				<img width="100%" src="assets/js.jpg" alt="">
+				<p>Tue, 19 Oct 2021 18:30</p>
+				<a href="#">
+					<h3>Tutorial Javascript #1 : Bikin Website Lebih Interaktif Pake JS !</h3>	
+				</a>
+				<p>Oke, kemarin kita sudah belajar megenai HTML dan CSS. Sekarang kita mulai menggunakan ‘logika’ ...</p>
+			</div>	
+			<div class="box">
+				<img width="100%" src="assets/js.jpg" alt="">
+				<p>Tue, 19 Oct 2021 18:30</p>
+				<a href="#">
+					<h3>Tutorial Javascript #1 : Bikin Website Lebih Interaktif Pake JS !</h3>	
+				</a>
+				<p>Oke, kemarin kita sudah belajar megenai HTML dan CSS. Sekarang kita mulai menggunakan ‘logika’ ...</p>
+			</div>
+			<div class="box">
+				<img width="100%" src="assets/css.jpg" alt="">
+				<p>Tue, 19 Oct 2021 16:30</p>
+				<a href="#">
+					<h3>Tutorial CSS #1 : Mari Kita Percantik Website Kita !</h3>
+				</a>
+				<p>Sudah paham mengenai HTML? oke kali ini kita akan coba untuk mempercantik tampilan yag telah ...</p>
+			</div>
+			<div class="box">
+				<img width="100%" src="assets/html.jpg" alt="">
+				<p>Tue, 19 Oct 2021 15:30</p>
+				<a href="#">
+					<h3>Tutorial HTML #1 : Pengertian dan Sejarah HTML</h3>
+				</a>
+				<p>Baru terjun ke dunia pemrograman web? HTML wajib banget kamu kuasai!. HTML merupakan ...</p>
+			</div>
+			<div class="box">
+				<img width="100%" src="assets/html.jpg" alt="">
+				<p>Tue, 19 Oct 2021 15:30</p>
+				<a href="#">
+					<h3>Tutorial HTML #1 : Pengertian dan Sejarah HTML</h3>
+				</a>
+				<p>Baru terjun ke dunia pemrograman web? HTML wajib banget kamu kuasai!. HTML merupakan ...</p>
+			</div>
+			<div class="box">
+				<img width="100%" src="assets/css.jpg" alt="">
+				<p>Tue, 19 Oct 2021 16:30</p>
+				<a href="#">
+					<h3>Tutorial CSS #1 : Mari Kita Percantik Website Kita !</h3>
+				</a>
+				<p>Sudah paham mengenai HTML? oke kali ini kita akan coba untuk mempercantik tampilan yag telah ...</p>
+			</div>	
+			<div class="box">
+				<img width="100%" src="assets/js.jpg" alt="">
+				<p>Tue, 19 Oct 2021 18:30</p>
+				<a href="#">
+					<h3>Tutorial Javascript #1 : Bikin Website Lebih Interaktif Pake JS !</h3>	
+				</a>
+				<p>Oke, kemarin kita sudah belajar megenai HTML dan CSS. Sekarang kita mulai menggunakan ‘logika’ ...</p>
+			</div>
+		</div>
+	
+	</section>
+
+	<footer>
+		<div>
+			<div class="row1">
+				<h1>TitiKoma</h1>
+				<p>Website tempat berbagi tutorial, tips and trik seputar 
+				<br>pemrograman dan berita teknologi terkini.</p>
+			</div>
+			<div class="row2">
+				<div class="sosmed">
+					<a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+					<a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+					<a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="row1">
+				<nav class="navbar nav-footer">
+					<a class="blue" href="index.html">Home</a>
+					<a href="tentang.html">Tentang</a>
+					<a href="tutorial.html">Tutorial</a>
+					<a href="kategori.html">Kategori</a>
+					<a href="berita.html">Berita</a>
+				</nav>
+			</div>
+			<div class="row2">
+				<p>&copy 2021 TitiKoma - Aditya Fakhri Riansyah 0620101081. All Rights Reserved.</p>
+			</div>
+		</div>
+	</footer>
+
+	<script type = "text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/dropdown.js"></script>
+</body>
+</html>
